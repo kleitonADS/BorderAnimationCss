@@ -1,24 +1,32 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import css3 from '/css3-fill.svg'
+import html5 from '/html5-line.svg'
+import JavaScript from '/javascript-line.svg'
+import reactJs from '/reactjs-line.svg'
+
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
+    <a class="button-icon" href="#" >
+      <img src="${html5}" class="logo" alt="Vite logo" />
     </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
+    <a class="button-icon" href="#":>
+      <img src="${css3}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
+
+     <a class="button-icon" href="#" >
+      <img src="${JavaScript}" class="logo" alt="Vite logo" />
+    </a>
+    <a class="button-icon" href="#":>
+      <img src="${reactJs}" class="logo vanilla" alt="JavaScript logo" />
+    </a>
+    <h1>Border Animation</h1>
+    <p>
+    <a>  @KleitonAds</a> 
     </p>
+
+   
   </div>
 `
 
-setupCounter(document.querySelector('#counter'))
+

@@ -2,8 +2,6 @@ import './style.css'
 import css3 from '/css3-fill.svg'
 
 
-
-
 document.querySelector('#app').innerHTML = `
   <div>
 
@@ -14,7 +12,7 @@ document.querySelector('#app').innerHTML = `
 
        <h1>Border Animation</h1>
     <p>
-    <a>  @KleitonAds</a> 
+    <a href="https://www.linkedin.com/in/kleitonsouzaads/">  @KleitonAds</a> 
     </p>
 
    
